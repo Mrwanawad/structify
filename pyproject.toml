@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "restructure-agent"
 version = "0.1.0"
+description = "Turns messy unstructured text (receipts, clinical notes, transcripts) into clean structured data with no predefined schema, powered by Groq. Streamlit live demo."
 
 [tool.setuptools.packages.find]
 where = ["."]
